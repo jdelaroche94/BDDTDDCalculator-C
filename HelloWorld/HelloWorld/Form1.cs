@@ -19,7 +19,7 @@ namespace HelloWorld
 
         private void button1_Click(object sender, EventArgs e)
         {
-            MessageBox.Show("Welcome to this application Julian");
+            MessageBox.Show("Welcome to this application Julian", "Hello World");
         }
 
         private void label1_Click(object sender, EventArgs e)
