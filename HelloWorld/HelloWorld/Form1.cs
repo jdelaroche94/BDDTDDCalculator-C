@@ -10,11 +10,20 @@ using System.Windows.Forms;
 
 namespace HelloWorld
 {
+    
+    
+    
     public partial class Form1 : Form
     {
+        /**
+        public static void Main()
+        {
+            Console.WriteLine("Hello World!");
+        }*/
         public Form1()
         {
-            InitializeComponent();
+            Console.WriteLine("Hello World!");
+            //InitializeComponent();
         }
 
         private void button1_Click(object sender, EventArgs e)
