@@ -5,9 +5,12 @@ VisualStudioVersion = 16.0.30011.22
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HelloWorld", "HelloWorld\HelloWorld.csproj", "{5E3A7C86-3D99-47F3-9763-CAF3C990AD3A}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TDD", "HelloWorldTest1\TDD.csproj", "{0BFE018E-678E-4291-937B-6564E9DF0517}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TDD", "TDD\TDD.csproj", "{0BFE018E-678E-4291-937B-6564E9DF0517}"
+	ProjectSection(ProjectDependencies) = postProject
+		{2C3D5A1E-EBDE-453B-AFCE-E29169278C2F} = {2C3D5A1E-EBDE-453B-AFCE-E29169278C2F}
+	EndProjectSection
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SimpleCalculator", "HelloWorldCore\SimpleCalculator.csproj", "{2C3D5A1E-EBDE-453B-AFCE-E29169278C2F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SimpleCalculator", "SimpleCalculator\SimpleCalculator.csproj", "{2C3D5A1E-EBDE-453B-AFCE-E29169278C2F}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BDD", "BDD\BDD.csproj", "{83D80E13-79B7-4491-ABC0-E66D2AE589CA}"
 	ProjectSection(ProjectDependencies) = postProject

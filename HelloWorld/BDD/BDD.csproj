@@ -29,7 +29,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\HelloWorldCore\SimpleCalculator.csproj" />
+    <ProjectReference Include="..\SimpleCalculator\SimpleCalculator.csproj" />
   </ItemGroup>
 
 </Project>

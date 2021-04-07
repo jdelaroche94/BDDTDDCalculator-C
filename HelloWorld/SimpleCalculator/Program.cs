@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Reflection.Metadata.Ecma335;
 
-namespace HelloWorldCore
+namespace SimpleCalculator
 {
     public class Program
     {

@@ -11,7 +11,7 @@ namespace BDD.Steps
 
         private readonly ScenarioContext _scenarioContext;
 
-        private readonly HelloWorldCore.Program _calculator = new HelloWorldCore.Program();
+        private readonly SimpleCalculator.Program _calculator = new SimpleCalculator.Program();
         private int _number1;
         private int _number2;
         private int _result;

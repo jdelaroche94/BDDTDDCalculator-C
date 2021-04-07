@@ -2,13 +2,13 @@ using Microsoft.VisualStudio.TestTools.UnitTesting;
 using System.IO;
 using System;
 
-namespace HelloWorldTest1
+namespace Calculator
 {
     [TestClass]
     public class UnitTest1
     {
         private const string Expected = "Hello World!";
-        private HelloWorldCore.Program calculator = new HelloWorldCore.Program();
+        private SimpleCalculator.Program calculator = new SimpleCalculator.Program();
 
         [TestMethod]
         public void TestMethod1()
@@ -16,7 +16,7 @@ namespace HelloWorldTest1
             using (var sw = new StringWriter())
             {
                 Console.SetOut(sw);
-                HelloWorldCore.Program.Main();
+                SimpleCalculator.Program.Main();
                 var result = sw.ToString().Trim();
                 Assert.AreEqual(Expected, result);
             }
